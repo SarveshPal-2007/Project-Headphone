@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: edf1fd;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+header {
+    padding: 20px 10%;
+    height: 15vh;
+    color: rgb(255, 187, 198);
+}
+header ul {
+    display: flex;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+
+}
+header ul li img {
+    width: 100px;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.leftmain{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.leftmain h1 {
+    font-size: 60px;
+}
+.leftmain p {
+    margin: 5% 0;
+    font-weight: 400;
+}
+.leftmain button {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    background-color: rgb(255, 187, 198);
+    border-radius: 10px;
+}
+ .rightmain {
+    /* width: 60%; */
+    align-items: center;
+    justify-content: center;
+ }
+ .rightmain div {
+    align-items: center;
+    justify-content: center;
+ }
+ .rightmain img {
+    border-radius: 25px;
+    margin-right: 2px;
+ }
+ .rightmain div img {
+    border-radius: 25px;
+ }
